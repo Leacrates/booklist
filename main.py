@@ -757,31 +757,6 @@ def visualize():
     window.mainloop()
 
 
-def test_colours():
-    window_colours = tk.Tk()
-    window_colours.title("Color Test")
-    window_colours.geometry("500x500")
-    label_colour1 = tk.Label(window_colours, text="brown", bg=colour1, fg=colour1_text, font=("Arial", 20))
-    label_colour2 = tk.Label(window_colours, text="light beige", bg=colour2, fg=colour2_text, font=("Arial", 20))
-    label_colour3 = tk.Label(window_colours, text="dark red", bg=colour3, fg=colour3_text, font=("Arial", 20))
-    label_colour4 = tk.Label(window_colours, text="red", bg=colour4, fg=colour4_text, font=("Arial", 20))
-    label_colour5 = tk.Label(window_colours, text="light red", bg=colour5, fg=colour5_text, font=("Arial", 20))
-    label_colour6 = tk.Label(window_colours, text="dark green", bg=colour6, fg=colour6_text, font=("Arial", 20))
-    label_colour7 = tk.Label(window_colours, text="green", bg=colour7, fg=colour7_text, font=("Arial", 20))
-    label_colour8 = tk.Label(window_colours, text="light green", bg=colour8, fg=colour8_text, font=("Arial", 20))
-    label_colour9 = tk.Label(window_colours, text="beige", bg=colour9, fg=colour9_text, font=("Arial", 20))
-
-    label_colour1.pack(expand=True, fill=tk.BOTH)
-    label_colour2.pack(expand=True, fill=tk.BOTH)
-    label_colour3.pack(expand=True, fill=tk.BOTH)
-    label_colour4.pack(expand=True, fill=tk.BOTH)
-    label_colour5.pack(expand=True, fill=tk.BOTH)
-    label_colour6.pack(expand=True, fill=tk.BOTH)
-    label_colour7.pack(expand=True, fill=tk.BOTH)
-    label_colour8.pack(expand=True, fill=tk.BOTH)
-    label_colour9.pack(expand=True, fill=tk.BOTH)
-
-    window_colours.mainloop()
 
 
 show_author = True
